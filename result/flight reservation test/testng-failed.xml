@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [flight reservation test]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="passengers-count-2(failed)">
+    <parameter name="testDataPath" value="test-data/flight-reservation/passenger-2.json"/>
+    <classes>
+      <class name="com.example.tests.flightreservation.FlightReservationTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="flightReservationConfirmationTest"/>
+          <include name="flightSearchTest"/>
+          <include name="sleep"/>
+          <include name="setupConfig"/>
+          <include name="setParameters"/>
+          <include name="flightSelectionTest"/>
+          <include name="registrationConfirmationTest"/>
+          <include name="userRegistrationTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.example.tests.flightreservation.FlightReservationTest -->
+    </classes>
+  </test> <!-- passengers-count-2(failed) -->
+</suite> <!-- Failed suite [flight reservation test] -->

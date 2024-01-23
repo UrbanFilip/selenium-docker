@@ -1,0 +1,11 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Lisek",
+  "email": "email@awdaw.com",
+  "password": "pass",
+  "street": "123 main street",
+  "city": "atlanta",
+  "zip": "30001",
+  "passengerCount": "4",
+  "expectedPrice": "$2338 USD"
+}
